@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cartapokemon.css">
+</head>
+<body>
+    <select id="select" onchange="elegirGeneracion(Number(this.value))" style="position: absolute; align-self: flex-start;">
+        <option selected value="0">-- Seleccione una Generación</option>
+        <option value="1">Generación 1</option>
+        <option value="2">Generación 2</option>
+    </select>    
+    <div>
+        <input class="boton oculto" id="boton" type="button" value="reseteo" onclick="window.location.reload();"/>    
+    </div>
+    <div class="errores">
+        errores
+    <input id="errores" value="0" type="text"/>
+    <br/>
+    </div>
+    <div class="puntaje">
+        puntaje
+        <input id="puntaje" value="0" type="text"/>
+        <br/>
+    </div>
+   
+   
+        <div id="contenedor">
+    </div>
+ 
+    <script src="cartapokemon.js"></script>
+</body>
+</html>
