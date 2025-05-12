@@ -1,0 +1,12 @@
+.card img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+.card .bi {
+  margin-right: 8px;
+  justify-content: center;
+}
